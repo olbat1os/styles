@@ -1,0 +1,55 @@
+.header{
+    height: 100%;
+    padding:25px 20px;
+    background-color: #101010;
+    color: white;
+    width: 100%;
+}
+
+.navigation{
+	position: absolute;
+	top: 10px;
+	right: 100px;
+}
+
+.navigation a{
+    height: 100%;
+    display: table;
+    float: right;
+    padding: 15px 20px;
+    background-color: #101010;
+}
+
+.navigation a li{
+    vertical-align: middle;
+    display: table-cell;
+    font-size: 20px;
+    color: white;
+}
+
+.navigation a:hover{
+    background-color: gray;
+    color: #101010;
+}
+
+
+.inner-header {
+    background-color: black;
+    color: rgb(253, 253, 253);
+    display: flex;
+}
+
+.img {
+    float: left;
+    display: flex;
+    position: absolute;
+    top: 100px;
+}
+
+.img p {
+    font-size: xx-large;
+}
+
+.contact {
+    font-size: xx-large;
+}
